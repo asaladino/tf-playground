@@ -3,7 +3,7 @@ from __future__ import absolute_import, division, print_function
 import tensorflow as tf
 from tensorflow import keras
 
-from text_classification.helper import format_data, graph_training_data, prediction_for_one_entry, decode_review
+from text_classification.helper import format_data, prediction_for_one_entry
 
 imdb = keras.datasets.imdb
 
